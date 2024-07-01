@@ -1,3 +1,5 @@
+package duration;
+
 import java.time.Duration;
 
 public class Principal {
