@@ -12,7 +12,7 @@ public class Principal {
 		System.out.println(periodo);
 
 //        Period periodoCalculado = periodo.plus(Period.ofYears(10)); /* Vai ser esse periodo + 10 anos */
-//        Period periodoCalculado = periodo.plusYears(10); 
+//        Period periodoCalculado = periodo.plusYears(10);  
 		Period periodoCalculado = periodo.multipliedBy(3).normalized(); /* Vai multiplicar esse periodo por 3  */
  
 		System.out.println(periodoCalculado);
