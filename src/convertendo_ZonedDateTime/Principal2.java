@@ -12,7 +12,7 @@ public class Principal2 {
 //        ZonedDateTime dataDaFestaFusoPadrao = ZonedDateTime
 //                .of(dataLocalDaFesta, ZoneId.of("America/Los_Angeles"));
 
-        ZonedDateTime dataDaFestaFusoPadrao = dataLocalDaFesta
+        ZonedDateTime dataDaFestaFusoPadrao = dataLocalDaFesta  
                 .atZone(ZoneId.of("America/Los_Angeles"));
 
         System.out.println(dataLocalDaFesta);
